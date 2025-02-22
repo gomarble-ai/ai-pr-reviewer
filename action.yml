@@ -152,7 +152,7 @@ inputs:
     required: false
     description:
       'Model to use for simple tasks like summarizing diff on a file.'
-    default: 'gpt-3.5-turbo'
+    default: 'o3-mini'
   openai_heavy_model:
     required: false
     description: 'Model to use for complex tasks such as code reviews.'

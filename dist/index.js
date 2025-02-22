@@ -8855,7 +8855,7 @@ IMPORTANT: Entire response must be in the language with ISO code: ${options.lang
                     messages,
                     model: this.options.openaiHeavyModel || 'o3-mini',
                     temperature: this.options.openaiModelTemperature,
-                    max_tokens: this.options.heavyTokenLimits.maxTokens,
+                    max_completion_tokens: this.options.heavyTokenLimits.maxTokens,
                     stream: false
                 });
                 return completion.choices[0].message;
